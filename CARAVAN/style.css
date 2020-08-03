@@ -2,16 +2,20 @@
    margin:  0;
    padding:  0;
    box-sizing:  border-box;
+   color: #6c6b6b;
+}
+a  {
+   text-decoration:  none;
 }
 .clearfix::after  {
-  content:  "";
-  display:  block;
-  clear:  both;
+  content:"";
+  display:block;
+  clear:both;
 }
-.header  {
+header  {
  width: 90%;
  padding: 15px 0;
- margin:  o auto;
+ margin:  0 auto;
  text-align:  center;
 }
 header  .headline  {
@@ -20,7 +24,7 @@ header  .headline  {
 .nav-list  {
   text-align:  center;
   padding:  10px  0;
-  margin:  o  auto;
+  margin:  0  auto;
 }
 .nav-list-item  {
   list-style:  none;
@@ -49,7 +53,13 @@ header  .headline  {
   height:  1400px;
   float:  left;
 }
-.footer  {
+footer  {
   width:  100%;
   height:  120px;
+  text-align:  center;
+  line-height:  120px;
+  background-color:  #848282;
+}
+.footer-text  {
+  color:  #fff;
 }
